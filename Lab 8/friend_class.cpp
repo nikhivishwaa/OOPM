@@ -3,10 +3,9 @@ using namespace std;
 
 class basket;
 class fruit{
-    public:
-        char ch;
-        int num;
-        friend class basket;
+    char ch;
+    int num;
+    friend class basket;
 };
 class basket{
     public:

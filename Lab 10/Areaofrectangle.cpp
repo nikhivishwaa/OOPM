@@ -4,7 +4,7 @@ using namespace std;
 class rectangle{
     public:
     void area_of_rectangle(int x, int y){
-        cout<<"\nArea : "<<x+y<<" square unit";
+        cout<<"\nArea : "<<x*y<<" square unit";
     }
     void area_of_rectangle(double x, double y){
         cout<<"\nArea : "<<x*y<<" square unit";

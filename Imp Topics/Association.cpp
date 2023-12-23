@@ -21,12 +21,12 @@ class Person{
     }
     void getPerson(){
         cout<<"Name : "<<name<<endl;
-        cout<<"Address : "<<p->hno<<" "<<p->colony<<" "<<p->city<<" "<<p->state<<endl;
+        cout<<"Address : "<<p->hno<<", "<<p->colony<<", "<<p->city<<", "<<p->state<<endl;
     }
 };
 
 int main(){
-    Address add1(52, "gandhi nagar", "bhopal", "mp");
+    Address add1(148, "Jayant nagar", "Sagar", "Madhya Pradesh");
     Person nikhil;
     nikhil.address(&add1);
     nikhil.name = "nikhil";

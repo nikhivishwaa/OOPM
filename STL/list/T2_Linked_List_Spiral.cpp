@@ -26,7 +26,7 @@ int main()
         l1.push_back(val);
     }
     cout << l1.size() << endl;
-    if (l1.size())
+    if (l1.size()>2)
     {
         list<int>::iterator iter = l1.begin(), rhs;
         int limit = l1.size() / 2;
@@ -38,6 +38,8 @@ int main()
         }
         rhs = iter;
         l2.push_back(*iter);
+        rhs++;
+        l2.push_back(*rhs);
         iter--;
         rhs++;
         int start_visited = 0;
